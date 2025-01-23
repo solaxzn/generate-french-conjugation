@@ -22,7 +22,7 @@ imparfait_endings = ['ais', 'ais', 'ait', 'ions', 'iez', 'aient']
 futur_simple_endings = ['ai', 'as', 'a', 'ons', 'ez', 'ont']
 conditionnel_endings = imparfait_endings
 
-# Function to generate conjugations
+
 def generate_conjugation(auxiliary_type, nous_stem, participe_passe, infinitif_stem):
     aux = auxiliary_conjugations[auxiliary_type]
     
@@ -61,7 +61,7 @@ def generate_conjugation(auxiliary_type, nous_stem, participe_passe, infinitif_s
         'Conditionnel Passé': conditionnel_passe
     }
 
-# Ask for input
+# Input verb
 infinitif_stem = input("Enter the infinitive form (e.g., 'manger'): ")
 auxiliary_type = input("\nEnter auxiliary verb (avoir/etre): ")
 nous_stem = input("\nEnter the 'nous' stem in present tense (e.g, 'mang' for 'manger'): ")
