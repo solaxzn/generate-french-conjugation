@@ -1,6 +1,6 @@
 # French Verb Conjugation Script
 
-This script generates a conjugation table given a French verb input. It uses standard and predefined rules for conjugation patterns and auxiliary verbs to create conjugations for all subject pronouns across multiple tenses. The output is saved as an Excel file for easy reference and analysis.
+This script generates a conjugation table given a French verb input. It uses standard and predefined rules for conjugation patterns and auxiliary verbs to create conjugations for all subject pronouns across multiple tenses. The output is saved as an Excel file for easy reference and analysis.\
 Note: It generates a new .xlsx file for each verb for now. (Would come back to this later!)
 
 ---
